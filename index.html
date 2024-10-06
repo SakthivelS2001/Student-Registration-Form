@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .button{
+                padding: 5px;
+            }
+            marquee{
+                padding: 10px;
+                color: white;
+                background-color: #0c2633;
+            }
+
+            .header{
+                color: #fbfeff;
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            .heading{
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .table{
+                background-color: #b9e2f5;
+                box-shadow: 3px 3px 8px 3px rgba(185, 185, 185, 0.986);
+                border: none;
+                border-radius: 8%;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+                margin-right:  35%;
+                margin-left: 35%;
+            }
+
+            td{
+                text-align: left;
+                padding: 8px;
+            }
+           
+        </style>
+    </head>
+    <body style="background-color:#d9f1fc;">
+        <div class="main_div">
+            <hr>
+        
+            <div class="header" color="white" style="background-color: #275173;">
+                <h1>SSV</h1>
+                <h5>SOFTWARE TRAINING INSTITUTE</h5>
+            </div>
+
+            <hr>
+
+            <marquee bgcolor="">Kindly fill out the form with accurate details to ensure smooth registration.</marquee>
+            <hr>
+        
+        
+            <div class="heading"><h3>STUDENT REGISTRATION</h3></div>
+        
+            <div class="form" style="background-color: #d9f1fc;">
+                <div class="table">
+                    <form>
+                        <table class="table1">
+                            <tr>
+                                <td><label>Name :</label></td>
+                                <td><input type="text" placeholder="Enter Your Name"></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><label>Age :</label></td>
+                                <td><input type="number" placeholder="Enter Your Age"></td>
+                            </tr>
+                    
+
+                             <tr>
+                                <td><label>Gender :</label></td>
+
+                                <td><input type="radio" name="gender">
+                                <label for="gender">Male</label>
+
+                                <input type="radio" name="gender"> 
+                                <label for="gender">Female</label></td>
+                            </tr>
+                        
+
+                            <tr>
+                                <td><label>Email :</label></td>
+                                <td><input type="email" placeholder="Enter Your Email"></td>                     
+                            </tr>
+
+                            <tr>
+                                <td><label>Qualification:</label></td>
+                                <td><select>
+                                    <option>Choose...</option>
+                                    <option>BSc</option>
+                                    <option>BCA</option>
+                                    <option>BBA</option>
+                                    <option>BCom</option>
+                                    <option>MSc</option>
+                                    <option>MCA</option>
+                                    <option>MBA</option>
+                                    <option>MCom</option>
+                                </select></td>
+                            </tr>
+
+                            <tr>
+                                <td><label>Apply for :</label></td>
+
+                                <td><input type="checkbox">
+                                    <label>HTML</label>
+
+                                    <input type="checkbox">
+                                    <label>CSS</label>
+
+                                    <input type="checkbox">
+                                    <label>JavaScript</label>
+
+                                    <input type="checkbox">
+                                    <label>PYTHON</label>
+
+                                    <input type="checkbox">
+                                    <label>JAVA</label>
+
+                                    <input type="checkbox">
+                                    <label>PostgreSQL</label>
+                                </td>
+                        
+
+                            <tr>
+                                <td></td>
+                                <td><input class="button" type="reset">
+
+                                <input class="button" type="submit" value="Submit"></td>
+                            </tr>
+                        </table>
+                    </form>
+            
+    
+                </div>
+    
+
+            </div>
+        </div>
+</body>
+</html>
